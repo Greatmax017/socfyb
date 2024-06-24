@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <div className='mt-8 bg-primary-darkBlue text-white'>
+        <div className='mt-10 bg-primary-darkBlue text-white'>
             <div className='w-[95%] md:w-[90%] mx-auto py-8 md:py-12 lg:py-16'>
                 <div className='flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between'>
                     <div className=''>
@@ -44,6 +44,15 @@ export const Footer = () => {
                             <a href="">
                                 <p>Become a Sponsor</p>
                             </a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className="border-[0.5px] border-[#CFCFD1] rounded-lg flex items-center gap-4">
+                           <div className="f;ex">
+                                <img src="/us.png" alt="us"
+                                width={24} height={24} className="w-full h-full object-cover rounded-full" />
+                           </div>
                         </div>
                     </div>
                 </div>

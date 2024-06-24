@@ -3,7 +3,7 @@ import { HiMenuAlt3 } from 'react-icons/hi'
 
 export const Navbar = () => {
     return (
-        <div className='fixed top-0 left-0 w-full bg-white shadow-md '>
+        <div className='z-50 fixed top-0 left-0 w-full bg-white shadow-md '>
             <nav className='w-[95%] mx-auto md:w-[90%] py-3 flex items-center justify-between lg:py-4'>
                 <img 
                 src="/logo.svg" 

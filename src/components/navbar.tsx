@@ -10,20 +10,20 @@ export const Navbar = () => {
             height={55}
             className='max-sm:w-40 object-cover aspect-auto' />
 
-            <div className='max-lg:hidden flex items-center gap-7 capitalize'>
-                <a href="">
+            <div className='max-lg:hidden flex items-center gap-7 text-primary-black-100 capitalize'>
+                <a href="" className='nav-links relative hover:font-semibold'>
                     <p>Home</p>
                 </a>
 
-                <a href="">
+                <a href="" className='nav-links relative hover:font-semibold'>
                     <p>Our Journey</p>
                 </a>
 
-                <a href="">
+                <a href="" className='nav-links relative hover:font-semibold'>
                     <p>Events</p>
                 </a>
 
-                <a href="">
+                <a href="" className='nav-links relative hover:font-semibold'>
                     <p>Gallery</p>
                 </a>
             </div>

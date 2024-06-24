@@ -11,6 +11,9 @@ export default {
           blue: "#0173AF",
           purple: "#824D79",
           darkBlue: "#14143C",
+          black: {
+            100: "#1E1E1E"
+          }
         }
       }
     },

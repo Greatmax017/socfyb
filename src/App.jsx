@@ -10,7 +10,7 @@ import { Vision } from "./vision"
 
 function App() {
   return (
-    <div className="relative container w-full mx-auto max-w-[2000px]">
+    <div className="relative container w-full mx-auto max-w-[2000px] bg-[#F7F7FF]">
       <Navbar />
       <Hero />
       <Vision />

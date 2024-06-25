@@ -15,6 +15,10 @@ export default {
             100: "#1E1E1E"
           }
         }
+      },
+      screens:{
+        smlg: "1115px",
+        mdlg: "1300px"
       }
     },
   },

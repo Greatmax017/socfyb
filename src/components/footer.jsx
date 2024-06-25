@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className='mt-10 bg-primary-darkBlue text-white'>
             <div className='w-[95%] md:w-[90%] mx-auto pt-8 md:pt-12 lg:pt-16 pb-8'>
                 <div className='flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between'>
-                    <div className=''>
+                    <div>
                         <img 
                         src="/inverted-logo.svg" 
                         alt="logo"
@@ -18,7 +18,7 @@ export const Footer = () => {
                         <p className="mt-2 max-md:text-sm md:w-[80%]">Empowering future tech leaders through innovation and collaboration</p>
                     </div>
 
-                    <div className="flex flex-col gap-6 lg:gap-28 lg:flex-row lg:items-start">
+                    <div className="lg:basis-[33%] flex flex-col gap-6 lg:gap-28 lg:flex-row lg:items-start">
                         <div className="flex flex-col gap-4 md:text-xl">
                             <h3 className="font-extrabold md:text-xl">Quick Link</h3>
                             <a href="">

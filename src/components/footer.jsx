@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <div className='mt-10 bg-primary-darkBlue text-white'>
             <div className='w-[95%] md:w-[90%] mx-auto pt-8 md:pt-12 lg:pt-16 pb-8'>
-                <div className='flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between'>
+                <div className='flex flex-col gap-6 max-lg:pl-3 lg:flex-row lg:items-start lg:justify-between'>
                     <div>
                         <img 
                         src="/logo.svg" 

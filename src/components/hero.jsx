@@ -5,7 +5,7 @@ export const Hero = () => {
     const logos = Array(logoCount).fill("/encryptors-logo.svg");
     
     return (
-        <div  className='w-full bg-primary-darkBlue text-white flex items-center justify-center pt-16'>
+        <div id='home' className='w-full bg-primary-darkBlue text-white flex items-center justify-center pt-16'>
             <div className='w-[98%] lg:w-[95%] xl:w-[90%] 2xl:w-[80%] mx-auto pt-14 md:pt-28 text-center'>
                 <h1 className='w-[90%] mx-auto font-extrabold text-4xl 2xl:text-6xl'>
                 Celebrating Excellence and Innovation <br />

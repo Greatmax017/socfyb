@@ -9,7 +9,7 @@ export const Journey = () => {
   }
 
     return (
-        <div className='text-white flex flex-col lg:flex-row gap-8 lg:gap-14'>
+        <div id='journey' className='text-white flex flex-col lg:flex-row gap-8 lg:gap-14'>
             <div className='w-full lg:basis-[50%] bg-[#000406] py-12 px-5 md:px-14 xl:px-16'>
                 <h3 className='font-extrabold text-3xl md:text-4xl max-lg:text-center'>Our Journey</h3>
 

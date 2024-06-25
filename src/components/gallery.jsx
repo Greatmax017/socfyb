@@ -4,7 +4,7 @@ import { GalleryCard } from './gallery-card'
 
 export const Gallery = () => {
     return (
-        <div className='bg-[#202046] mt-4 pb-20 lg:pb-28'>
+        <div id='gallery' className='bg-[#202046] mt-4 pb-20 lg:pb-28'>
             <div className='w-[95%] md:w-[90%] mx-auto'>
                 <div className='flex flex-col lg:flex-row items-end justify-between text-white py-14'>
                     <div className='w-full'>

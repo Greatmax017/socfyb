@@ -10,11 +10,14 @@ export const Footer = () => {
                 <div className='flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between'>
                     <div>
                         <img 
-                        src="/inverted-logo.svg" 
+                        src="/logo.svg" 
                         alt="logo"
                         width={215}
                         height={55}
-                        className='max-[350px]:w-32 max-sm:w-40 object-cover aspect-auto' />
+                        className='relative left-[-1%] max-[350px]:w-32 max-sm:w-40 object-cover aspect-auto'
+                        style={{ filter: 'invert(27%) sepia(95%) saturate(7469%) hue-rotate(188deg) brightness(93%) contrast(100%)' }}
+                        />
+
                         <p className="mt-2 max-md:text-sm md:w-[80%]">Empowering future tech leaders through innovation and collaboration</p>
                     </div>
 

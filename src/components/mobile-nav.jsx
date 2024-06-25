@@ -62,12 +62,14 @@ const SideBar = ({ sidebarOpen, setSidebarOpen }) => {
               <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-[#0C0C0D] px-8 pb-4 ring-1 ring-white/10">
                 <div className="flex h-16 shrink-0 items-center">
                   {/* <Logo /> */}
-                    <img 
-                    src="/inverted-logo.svg" 
-                    alt="logo"
-                    width={215}
-                    height={55}
-                    className='max-[350px]:w-32 max-sm:w-40 object-cover aspect-auto' />
+                      <img 
+                        src="/logo.svg" 
+                        alt="logo"
+                        width={215}
+                        height={55}
+                        className='mt-4 relative left-[-1rem] max-[350px]:w-32 max-sm:w-40 object-cover aspect-auto'
+                        style={{ filter: 'invert(27%) sepia(95%) saturate(7469%) hue-rotate(188deg) brightness(93%) contrast(100%)' }}
+                      />
                 </div>
                 <nav className="flex flex-1 flex-col">
                   <ul role="list" className="flex flex-1 flex-col gap-y-7">

@@ -14,13 +14,13 @@ export const Navbar = () => {
     return (
         <div className='z-50 max-[2000px]:fixed top-0 left-0 w-full bg-white shadow-md '>
              <SideBar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-            <nav className='w-[95%] mx-auto md:w-[90%] py-3 flex items-center justify-between lg:py-4'>
+            <nav className='w-[95%] mx-auto md:w-[90%] flex items-center justify-between py-2'>
                 <img 
                 src="/logo.svg" 
                 alt="logo"
                 width={215}
                 height={55}
-                className='max-[350px]:w-32 max-sm:w-40 object-cover aspect-auto' />
+                className='relative left-[-1%] max-[350px]:w-32 max-sm:w-40 object-cover aspect-auto' />
 
                 <div className='max-lg:hidden flex items-center gap-7 text-primary-black-100 capitalize'>
                 {navigation.map((item) => (

@@ -24,7 +24,10 @@ export const Navbar = () => {
 
                 <div className='max-lg:hidden flex items-center gap-7 text-primary-black-100 capitalize'>
                 {navigation.map((item) => (
-                <a href={item.href} className='nav-links relative hover:font-semibold'>
+                <a 
+                key={item.name}
+                href={item.href} 
+                className='nav-links relative hover:font-semibold'>
                     <p>{item.name}</p>
                 </a>
                 ))}

@@ -74,7 +74,8 @@ const SideBar = ({ sidebarOpen, setSidebarOpen }) => {
                     <li>
                       <ul role="list" className="-mx-2 space-y-5 text-lg">
                         {navigation.map((item) => (
-                          <li key={item.name}>
+                          <li key={item.name}
+                          onClick={() => setSidebarOpen(false)}>
                                 <a href={item.href} className="text-white">{item.name}</a>
                           </li>
                         ))}

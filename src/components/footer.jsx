@@ -6,7 +6,7 @@ export const Footer = () => {
     const year = new Date().getFullYear();
     return (
         <div className='mt-10 bg-primary-darkBlue text-white'>
-            <div className='w-[95%] md:w-[90%] mx-auto py-8 md:py-12 lg:py-16'>
+            <div className='w-[95%] md:w-[90%] mx-auto pt-8 md:pt-12 lg:pt-16 pb-8'>
                 <div className='flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between'>
                     <div className=''>
                         <img 

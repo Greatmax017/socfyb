@@ -83,6 +83,16 @@ export const Footer = () => {
                         <p>Cookie Settings</p>
                     </div>
                 </div>
+
+                <div>
+                    <p className='mt-6 text-xs text-center'>Website designed by
+                        <span>
+                            <a 
+                            target='_blank'
+                            href="https://github.com/Demiladeala" className='font-bold underline'> OLUWADEMILADE ALA 👨🏻‍💻</a>
+                        </span>
+                    </p>
+                </div>
             </div>
         </div>
     )

@@ -72,7 +72,7 @@ export const Footer = () => {
 
                 <div className='mt-10 w-full h-0.5 bg-[#CFCFD1]'></div>
 
-                <div className='mt-8 w-full flex flex-col gap-4 lg:flex-row items-center justify-center text-xs'>
+                <div className='mt-8 w-full flex flex-col gap-4 lg:flex-row items-center justify-center text-xs md:text-sm'>
                     <div>
                         <p>&copy; {year} The Encryptors. All rights reserved.</p>
                     </div>
@@ -85,7 +85,7 @@ export const Footer = () => {
                 </div>
 
                 <div>
-                    <p className='mt-6 text-xs text-center'>Website designed by
+                    <p className='mt-6 text-xs md:text-sm text-center'>Website designed by
                         <span>
                             <a 
                             target='_blank'

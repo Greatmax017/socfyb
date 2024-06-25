@@ -10,7 +10,7 @@ export const Sponsor = () => {
 
                 <div className='z-[2] relative flex flex-col lg:flex-row gap-5 lg:gap-10 items-center lg:justify-between'>
                     <div className='text-white lg:basis-[60%]' >
-                        <h2 className='font-extrabold text-3xl md:text-4xl max-lg:text-center'>Do you want to sponsor with us?</h2>
+                        <h2 className='font-extrabold text-3xl md:text-4xl max-lg:text-center'>Do you want to partner with us?</h2>
 
                         <p className='text-xl max-lg:text-center mt-4'>
                         Partner with us and help shape the future of technology. Your support can make a significant impact</p>

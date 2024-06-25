@@ -13,10 +13,12 @@ export const Hero = () => {
                 </h1>
                 <p className='mt-9 w-[90%] mx-auto 2xl:text-xl'>Join us as we honor our journey and achievements in technology. 
                     Together, we've shaped the future with innovation and camaraderie.</p>
-                
+
+                    <a href='https://chat.whatsapp.com/BAUgd3e13rdIBKlRGlOfKu' target='_blank'>
                     <button className='mt-4 md:mt-7 bg-primary-blue text-white py-4 px-5 lg:px-14 rounded-3xl transition duration-500 hover:bg-primary-purple'>
                         Join the Celebration
                     </button>
+                    </a>
 
                 <div className='z-10 mt-16 flex items-center justify-center'>
                    <div className='relative  min-[1300px]:left-[0] min-[1115px]:left-[3rem] w-[98%] lg:w-[90%] mx-auto flex xl:justify-center overflow-x-scroll lg:overflow-x-hidden'>

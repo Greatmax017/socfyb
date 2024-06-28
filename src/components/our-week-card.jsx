@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const OurWeekCard = ({number, dayOfWeek}) => {
+export const OurWeekCard = ({number, dayOfWeek, heading, subHeading}) => {
     return (
         <div className='bg-primary-darkBlue text-white py-4 px-6 shadow-md'>
             <div className='flex gap-4'>
@@ -12,10 +12,9 @@ export const OurWeekCard = ({number, dayOfWeek}) => {
                 </div>
 
                 <div>
-                    <h5 className='font-extrabold text-lg md:text-xl lg:text-2xl'>Back to school</h5>
+                    <h5 className='font-extrabold text-lg md:text-xl lg:text-2xl'>{heading}</h5>
                     <p className='mt-3 text-xs'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Mollis quam malesuada. consectetur adipiscing elit.
+                        {subHeading}
                     </p>
                 </div>
             </div>

@@ -7,11 +7,11 @@ export const Gallery = () => {
     const images = [
         {
             id: 1,
-            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719562516/SOC/gktgajqrt3nktlcfybkt.heic'
+            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719564342/SOC/gw4sxxrwdrkihyvlhcda.jpg'
         },
         {
             id: 2,
-            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719562510/SOC/sjztxibuawk0apkxtom8.heic'
+            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719564342/SOC/qd9vvnfmutnxaldhunpa.jpg'
         },
         {
             id: 3,
@@ -27,19 +27,7 @@ export const Gallery = () => {
         },
         {
             id: 6,
-            img: '/gallery-card.png'
-        },
-        {
-            id: 7,
-            img: '/gallery-card.png'
-        },
-        {
-            id: 8,
-            img: '/gallery-card.png'
-        },
-        {
-            id: 9,
-            img: '/gallery-card.png'
+            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719564342/SOC/ftizuh21shnyzd78wiep.jpg'
         }
     ]
     return (

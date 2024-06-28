@@ -27,3 +27,6 @@ body {
 .nav-links:hover:before {
     width: 100%;
 }
+.relative:hover .absolute {
+    display: block;
+  }

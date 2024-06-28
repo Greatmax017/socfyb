@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      display: ['group-hover'],
       colors: {
         primary: {
           blue: "#0173AF",
@@ -16,10 +17,10 @@ export default {
           }
         }
       },
-      screens:{
+      screens: {
         smlg: "1115px",
         mdlg: "1300px"
-      }
+      },
     },
   },
   plugins: [],

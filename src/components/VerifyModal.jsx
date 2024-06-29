@@ -1,4 +1,7 @@
+
+import axios from "axios";
 import { useState } from "react";
+
 
 function VerifyModal({ setShowVerify }) {
   const Base_url = import.meta.env.VITE_BASE_URL;
@@ -6,10 +9,13 @@ function VerifyModal({ setShowVerify }) {
 
   const [paymentInfo, setPaymentInfo] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  // const [status, setStatus] = useState('');
+  const [error, setError] = useState("");
 
 
   //handle matric input and set to capitialize
   const handleMatric = (e) => {
+    e.preventDefault();
     setMatric(e.target.value.toUpperCase());
   };
 
@@ -19,26 +25,42 @@ function VerifyModal({ setShowVerify }) {
       return;
     }
     setIsLoading(true);
+    setError("");
     const matric_Obj = {
       matric_no: matric,
     };
-    console.log(matric_Obj)
+
 
     try {
-      const response = await fetch(`${Base_url}verify-payment`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(matric_Obj),
-      });
-      const data = await response.json();
-      setPaymentInfo(data.data);
+      const response = await axios.post(`${Base_url}verify-payment`, {matric_no: matric});
+     if (response.status === 200) {
+       setPaymentInfo(response.data.data);
+       setIsLoading(false);
+      } else if (response.status === 404) {
+        setError("Student not found");
+        setIsLoading(false);
+      } else {
+        setError("An error occured");
+        setIsLoading(false);
+      }
+
+        
+      
+      console.log(response.status)
       setIsLoading(false);
     } catch (error) {
-      console.log(error);
+      if (error.response.status === 404) {
+        setError("Student not found - check matric number");
+        setPaymentInfo([]);
+        setIsLoading(false);
+        return;
+      } 
+     
+      setError("An error occured");
+      setIsLoading(false);
     }
   };
+
 
 
   return (
@@ -48,6 +70,7 @@ function VerifyModal({ setShowVerify }) {
           <div className="flex-1">
             <h3 className="text-gray-800 text-2xl font-bold">Verify Payment</h3>
             <p className="text-gray-500 text-sm mt-1">Input Matric No to verify payment i.e CSC/18/4050</p>
+            {error && <p className="text-red-500 text-sm">{error}</p>}
           </div>
 
           <svg

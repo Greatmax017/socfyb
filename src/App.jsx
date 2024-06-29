@@ -10,6 +10,7 @@ import { Vision } from "./vision";
 import { useWindowSize } from "@uidotdev/usehooks";
 import Confetti from "react-confetti";
 
+
 function App() {
   const { width, height } = useWindowSize();
 
@@ -25,10 +26,14 @@ function App() {
   }
 
 
+ 
+
+
 
 
   return (
     <div className="relative container w-full mx-auto max-w-[2000px] bg-[#F7F7FF]">
+       
       <Navbar />
       <Hero />
       <Vision />
@@ -47,6 +52,7 @@ function App() {
             gravity={0.5}
             onConfettiComplete={() => setShow(true)}
           />
+          
         </>
       )}
 
@@ -95,6 +101,7 @@ function App() {
           </div>
         </>
       )}
+      
     </div>
   );
 }

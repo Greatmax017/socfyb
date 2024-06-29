@@ -21,7 +21,7 @@ export const OurWeek = () => {
         {
             number: '3',
             dayOfWeek: 'August',
-            heading: 'Picnic at Golf Club.',
+            heading: 'Picnic.',
             subHeading: 'Golf Club, Ilara Mokin, Ondo State.'
         },
         {

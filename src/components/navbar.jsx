@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import SideBar from "./mobile-nav";
+import VerifyModal from "./VerifyModal";
+import PaymentModal from "./PaymentModal";
 
 export const navigation = [
   { name: "Home", href: "#home" },
@@ -13,6 +15,8 @@ export const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const [showVerify, setShowVerify] = useState(false);
+  const [showPayment, setShowPayment] = useState(false);
 
   const handleClickOutside = (event) => {
     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -60,16 +64,24 @@ export const Navbar = () => {
             {isOpen && (
               <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10">
                 <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
-                    Dues
+                  <a href="#" onClick={()=> setShowPayment(true)} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+                    Fyb Dues
                   </a>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+                  <a href="#" onClick={()=> setShowVerify(true)} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
                     Verify Payment
                   </a>
                 </div>
               </div>
             )}
           </div>
+
+          {showVerify && (
+            <VerifyModal setShowVerify={setShowVerify} />
+          )}
+
+          {showPayment && (
+            <PaymentModal setShowPayment={setShowPayment} />  
+          )}
 
           <HiMenuAlt3 size={25} className="lg:hidden" onClick={() => setSidebarOpen(true)} />
         </div>

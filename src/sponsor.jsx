@@ -18,7 +18,7 @@ export const Sponsor = () => {
           </div>
 
           <div className="max-lg:w-full max-lg:mt-5 flex items-center justify-center">
-            <a href="mailto:encryptors@socfyb.com">
+            <a href="tel:+2349034222932">
               <button className="max-lg:w-full bg-primary-blue text-white py-4 px-5 lg:py-5 lg:px-28 rounded-3xl transition duration-500 hover:bg-primary-purple">
                 Get in touch
               </button>

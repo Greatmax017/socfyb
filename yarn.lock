@@ -452,6 +452,18 @@
   dependencies:
     tslib "^2.4.0"
 
+"@tanstack/query-core@5.49.0":
+  version "5.49.0"
+  resolved "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.49.0.tgz"
+  integrity sha512-xUTjCPHC8G+ZvIUzjoMOLnMpNXYPQI4HjhlizTVVBwtSp24iWo4/kaBzHAzsrCVyfbiaPIFFkUvicsY4r8kF8A==
+
+"@tanstack/react-query@^5.49.0":
+  version "5.49.0"
+  resolved "https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.49.0.tgz"
+  integrity sha512-3A0BDwGVk6UzWFdz+WTC9HHts9kI42XYLK78/DGmoj9fd6W/NsjEjI5S4lPPebgq9cWWPo9QNciaSWfH71RgNg==
+  dependencies:
+    "@tanstack/query-core" "5.49.0"
+
 "@tanstack/react-virtual@3.5.0":
   version "3.5.0"
   resolved "https://registry.npmjs.org/@tanstack/react-virtual/-/react-virtual-3.5.0.tgz"
@@ -521,6 +533,11 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
+
+"@uidotdev/usehooks@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/@uidotdev/usehooks/-/usehooks-2.4.1.tgz"
+  integrity sha512-1I+RwWyS+kdv3Mv0Vmc+p0dPYH0DTRAo04HLyXReYBL9AeseDWUJyi4THuksBJcu9F0Pih69Ak150VDnqbVnXg==
 
 "@ungap/structured-clone@^1.2.0":
   version "1.2.0"
@@ -1364,6 +1381,11 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
+
+fsevents@~2.3.2, fsevents@~2.3.3:
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.2:
   version "1.1.2"
@@ -2211,7 +2233,14 @@ queue-microtask@^1.2.2:
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", react-dom@^18, react-dom@^18.3.1, react-dom@>=16.8.0:
+react-confetti@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.npmjs.org/react-confetti/-/react-confetti-6.1.0.tgz"
+  integrity sha512-7Ypx4vz0+g8ECVxr88W9zhcQpbeujJAVqL14ZnXJ3I23mOI9/oBVTQ3dkJhUmB0D6XOtCZEM6N0Gm9PMngkORw==
+  dependencies:
+    tween-functions "^1.2.0"
+
+"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", react-dom@^18, react-dom@^18.3.1, react-dom@>=16.8.0, react-dom@>=18.0.0:
   version "18.3.1"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz"
   integrity sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
@@ -2234,7 +2263,7 @@ react-refresh@^0.14.2:
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.2.tgz"
   integrity sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==
 
-react@*, "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", react@^18, react@^18.3.1, react@>=16.8.0:
+react@*, "react@^16.3.0 || ^17.0.1 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", react@^18, react@^18.0.0, react@^18.3.1, react@>=16.8.0, react@>=18.0.0:
   version "18.3.1"
   resolved "https://registry.npmjs.org/react/-/react-18.3.1.tgz"
   integrity sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==
@@ -2643,6 +2672,11 @@ tslib@^2.4.0:
   version "2.6.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.3.tgz"
   integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
+
+tween-functions@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/tween-functions/-/tween-functions-1.2.0.tgz"
+  integrity sha512-PZBtLYcCLtEcjL14Fzb1gSxPBeL7nWvGhO5ZFPGqziCcr8uvHp0NDmdjBchp6KHL+tExcg0m3NISmKxhU394dA==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"

@@ -28,6 +28,18 @@ export const Gallery = () => {
         {
             id: 6,
             img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719564342/SOC/ftizuh21shnyzd78wiep.jpg'
+        },
+        {
+            id: 7,
+            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719689436/SOC/vb7nftd1a6egi2usdpjv.jpg'
+        },
+        {
+            id: 8,
+            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719689438/SOC/vshja3s4szdthlrfufxq.jpg'
+        },
+        {
+            id: 9,
+            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719689435/SOC/m8div0jb1yl8rabwp8qq.jpg'
         }
     ]
     return (

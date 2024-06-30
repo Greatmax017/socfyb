@@ -50,7 +50,7 @@ export const Journey = () => {
                                 <FaPlay
                                 onClick={handleClick} 
                                 size={50} 
-                                className='max-md:w-20 cursor-pointer'
+                                className='max-md:w-20 h-full mx-auto my-auto cursor-pointer'
                                 />
                             </div>
                             <img src="/journey.png" alt='how-we-work' className='w-full h-full object-cover rounded' />

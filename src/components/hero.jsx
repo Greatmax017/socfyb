@@ -66,7 +66,7 @@ export const Hero = () => {
                     </a>
 
                 <div className='z-10 mt-16 flex items-center justify-center'>
-                   <div className='relative w-[98%] lg:w-[90%] mx-auto flex xl:justify-center overflow-x-scroll lg:overflow-x-hidden pb-4'>
+                   <div className='relative w-[98%] lg:w-[90%] mx-auto flex md:justify-center overflow-x-scroll lg:overflow-x-hidden pb-4'>
                         
 
                        {

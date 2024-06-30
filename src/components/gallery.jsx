@@ -53,7 +53,7 @@ export const Gallery = () => {
                         </p>
                     </div>
 
-                    <div className='max-lg:w-full max-lg:flex max-lg:justify-end max-lg:mt-4 flex items-center gap-3'>
+                    <div className='max-lg:hidden max-lg:mt-4 flex items-center gap-3'>
                         <div className='p-3 rounded-full border border-primary-blue transition duration-500 hover:bg-primary-blue'>
                             <IoMdArrowBack size={25}/>
                         </div>

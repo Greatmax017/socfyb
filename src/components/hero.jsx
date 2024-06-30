@@ -65,18 +65,17 @@ export const Hero = () => {
                     </button>
                     </a>
 
-                {/* <div className='z-10 mt-16 flex items-center justify-center'>
-                   <div className='relative  min-[1300px]:left-[0] min-[1115px]:left-[3rem] w-[98%] lg:w-[90%] mx-auto flex xl:justify-center overflow-x-scroll lg:overflow-x-hidden'>
-                        <div className='w-28 max-lg:flex-shrink-0 max-lg:w-0'></div>
+                <div className='z-10 mt-16 flex items-center justify-center'>
+                   <div className='relative w-[98%] lg:w-[90%] mx-auto flex xl:justify-center overflow-x-scroll lg:overflow-x-hidden pb-4'>
                         
 
                        {
-                            images.map((image) => (
-                                 <HeadShots key={image.id} img={image.img} />
+                            images.map((image, index) => (
+                                 <HeadShots key={image.id} img={image.img} overlap={index !== 0}/>
                             ))
                        }
                    </div>
-                </div> */}
+                </div>
 
                <div className='mt-9 md:mt-16 flex justify-center overflow-hidden'>
                      {logos.map((logo, index) => (

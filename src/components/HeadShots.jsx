@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-function HeadShots({ img }) {
+function HeadShots({ img, overlap }) {
   return (
-    <div>
+    <div className={`flex-shrink-0 ${overlap ? '-ml-8' : ''}`}>
       <img
         src={img}
         alt="students"

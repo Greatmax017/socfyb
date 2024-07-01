@@ -83,7 +83,7 @@ export const Navbar = () => {
             <PaymentModal setShowPayment={setShowPayment} />  
           )}
 
-          <HiMenuAlt3 size={25} className="lg:hidden" onClick={() => setSidebarOpen(true)} />
+          <HiMenuAlt3 size={32} className="lg:hidden" onClick={() => setSidebarOpen(true)} />
         </div>
       </nav>
     </div>

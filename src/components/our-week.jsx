@@ -7,13 +7,13 @@ export const OurWeek = () => {
 
     const week = [
         {
-            number: '1',
+            number: '19',
             dayOfWeek: 'July',
             heading: 'Inter departmental football competition.',
             subHeading: 'Inter departmental football competition.'
         },
         {
-            number: '2',
+            number: '27',
             dayOfWeek: 'July',
             heading: 'Funtrip to Ikogosi warm spring.',
             subHeading: 'Funtrip to Ikogosi warm spring.'
@@ -25,19 +25,19 @@ export const OurWeek = () => {
             subHeading: 'Golf Club, Ilara Mokin, Ondo State.'
         },
         {
-            number: '4',
+            number: '9',
             dayOfWeek: 'September',
             heading: 'FYB Week.',
             subHeading: 'Fyb week for final year students.'
         },
         {
-            number: '5',
+            number: '17',
             dayOfWeek: 'October',
             heading: 'Exclusive dinner.',
             subHeading: 'Exclusive dinner for final year students.'
         },
         {
-            number: '6',
+            number: '24',
             dayOfWeek: 'October',
             heading: 'Report Meeting.',
             subHeading: 'Report meeting for all fyb.'

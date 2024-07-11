@@ -23,7 +23,7 @@ export const Gallery = () => {
         },
         {
             id: 5,
-            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1719562509/SOC/vppn6zaw39mqa8kfrkco.jpg'
+            img: 'https://res.cloudinary.com/dv7bteenr/image/upload/v1720685106/SOC/j9xw7csykys5zgdu7xuf.jpg'
         },
         {
             id: 6,

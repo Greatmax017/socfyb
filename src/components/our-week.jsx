@@ -13,10 +13,10 @@ export const OurWeek = () => {
             subHeading: 'Inter departmental football competition.'
         },
         {
-            number: '27',
-            dayOfWeek: 'July',
-            heading: 'Funtrip to Ikogosi warm spring.',
-            subHeading: 'Funtrip to Ikogosi warm spring.'
+            number: '24',
+            dayOfWeek: 'August',
+            heading: 'Funtrip to Arinta Waterfall.',
+            subHeading: 'Funtrip to Arinta Waterfall, Ekiti State.'
         },
         {
             number: '3',
